@@ -39,7 +39,7 @@ app.post("/", function(req,res) {
         
     } else {
         items.push(item);            // push the item to the end of the array items
-        res.redirect("/");
+        res.redirect("/"); 
     }
     
 });
